@@ -1,0 +1,571 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+
+#resBut
+{
+	display: block;
+	width: 100px;
+	background-color: #E87CAC;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#resBut:hover
+{
+	background-color: #DE9BBE;
+	color:  #fff;
+}
+
+
+
+
+nav
+{
+	background-color: #FDF0FA; 
+	height: 70px;
+	border-bottom: 2px solid rgb(255, 204, 230);
+}
+
+#main-menu ul li a:hover
+{
+	color: #efefef;
+}
+
+#mainNav
+	{
+
+		text-align: right;
+		font-size: 20px;
+	}
+
+
+
+	#mainNav li
+	{
+		display: inline;
+		margin-right: 50px;
+	}
+
+	#mainNav li a
+	{
+		display: inline;
+		color: #333;
+		font-family: 'Abel', sans-serif;
+	}
+
+
+
+#header
+{
+	background: url(../images/home.png) no-repeat;
+	height: 720px;
+	width: 1415px;
+}
+
+#header h1
+{
+	padding-top: 250px;
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	font-size: 80px;
+	color: #F7D4ED;
+	
+}
+
+
+
+#header h2
+{
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	font-size: 65px;	
+	color: #F7D4ED;
+	
+}
+
+
+#aboutMe
+{
+	border-top: 2px solid  #DE9BBE;
+	border-bottom: 2px solid  #DE9BBE;
+	background-color: #FDF0FA;
+	height: 500px;
+}
+
+
+
+#aboutMeText h1
+{
+	font-size: 55px;
+	text-align: center;
+	padding-top: 10px;
+	font-family: 'Abel', sans-serif;
+}
+
+#aboutMeText h2
+{
+	font-size: 35px;
+	padding: 10px;
+	font-family: 'Abel', sans-serif;
+	padding-left: 150px;
+}
+
+#aboutMeText p
+{
+	font-size: 25px;
+	padding: 10px;
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+}
+
+
+
+#button h2
+{
+	padding-bottom: 10px;
+	margin-left: 10px;
+}
+
+#button p
+{
+	padding-bottom: 20px;
+	margin-left: 10px;
+
+}
+
+#button
+{
+	color: #F7D4ED;
+}
+
+
+
+
+#skills
+{
+	border-bottom: 2px solid  #DE9BBE;
+	height: 500px;
+}
+
+#skills h2
+{
+	text-align: center;
+	font-size: 65px;
+	font-family: 'Abel', sans-serif;
+	
+}
+
+#skills p
+{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Abel', sans-serif;
+}
+
+#film
+{
+	width: 300px;
+	height: 300px;
+}
+
+#design
+{
+	width: 300px;
+	height: 300px;
+}
+
+#film p
+{
+	font-size: 15px;
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+}
+
+#design p
+{
+	font-size: 15px;
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+}
+
+
+
+
+#myWork h2
+{
+	text-align: center;
+	font-size: 65px;
+	font-family: 'Abel', sans-serif;
+	padding: 50px;
+}
+
+#myWork button
+{
+	padding-left: 5px;
+	margin-top: 5px;
+	color: #F7D4ED;
+}
+
+
+
+#mainContact
+{
+	border-top: 2px solid  #DE9BBE;
+}
+
+
+#mainContact h2
+{
+	margin-top: 10px;
+	font-family: 'Abel', sans-serif;
+	font-size: 55px;
+	text-align: center;
+}
+
+#contactArea
+{
+	width: 469px;
+	margin-bottom: 30px;
+}
+
+#contactArea h3
+{
+	font-family: 'Abel', sans-serif;
+	font-size: 25px;
+}
+
+
+
+input, textarea
+{
+	font-family: 'Abel', sans-serif;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 300px;
+	height: 10px;
+	background-color: #efefef;
+	border: 1px solid #999;
+	color: #333;
+}
+
+/*Get rid of this, here just to give different height*/
+#contactText
+{
+	font-family: 'Abel', sans-serif;
+	font-size: 21px;
+	width: 340px;
+	margin-bottom: 30px;
+}
+
+
+#comments
+{
+	width: 360px;
+	height: 200px;
+}
+
+#sudmit
+{
+	width: 75px;
+	height: 30px;
+	background-color: #2073a8;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	margin-top: 30px;
+	border: 1px solid #003471;
+}
+
+
+
+footer
+{
+	background-color:  #FDF0FA;
+	border-top: 2px solid#DE9BBE;
+}
+
+#footerCon
+{
+	height: 70px;
+}
+
+@media screen and (min-width: 64em) {  /* desktop */
+
+	#mainNav
+	{
+
+		text-align: right;
+		font-size: 10px;
+	}
+
+
+
+	#mainNav li
+	{
+		display: inline;
+		margin-right: 50px;
+	}
+
+	#mainNav li a
+	{
+		display: inline;
+		color: #333;
+		font-family: 'Abel', sans-serif;
+	}
+
+	#mainNav ul li a:hover
+	{
+		color: white;
+	}
+
+
+	#aboutMe
+	{
+		height: 500px;
+	}
+	
+	#footerNav
+	{
+		text-align: right;
+		font-size: 20px;
+		margin-top: 105px;
+	}
+	
+	#footerNav li
+	{
+		
+		border-bottom: none;
+		display: inline;
+		margin-right: 50px;
+	}
+	
+	#footerNav li a
+	{
+		
+		display: inline;
+		color: #333;
+		font-family: 'Abel', sans-serif;
+	}
+
+	
+	#footerCon ul
+	{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	#footerCon ul li 
+	{
+		display: inline;
+		margin-right: 20px;
+	}
+	
+	#footerCon ul li a
+	{
+		color: #5F5959;
+		line-height: 70px;
+	}
+	
+	#footerCon ul li a:hover
+	{
+		color: white;
+	}
+
+}
+
+@media screen and (min-width: 40em) {   /*medium*/
+
+
+	#mainNav ul
+	{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	#mainNav ul li 
+	{
+		display: inline;
+		margin-right: 20px;
+	}
+	
+	#mainNav ul li a
+	{
+		color: #5F5959;
+		line-height: 70px;
+	}
+	
+	
+
+	#backButton
+	{
+		display: none;
+	}
+
+	#footerCon ul
+	{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	#footerCon ul li 
+	{
+		display: inline;
+		margin-right: 20px;
+	}
+	
+	#footerCon ul li a
+	{
+		color: #5F5959;
+		line-height: 70px;
+	}
+	
+	#footerCon ul li a:hover
+	{
+		color: white;
+	}
+	
+	#backButton
+	{
+		font-family: 'Abel', sans-serif;
+		color: #333;
+	}
+}
+
+@media screen and (min-width: 64em) {   /*small*/
+
+	#mainNav
+	{
+
+		text-align: right;
+		font-size: 20px;
+	}
+
+
+
+	#mainNav li
+	{
+		display: inline;
+		margin-right: 50px;
+	}
+
+	#mainNav li a
+	{
+		display: inline;
+		color: #333;
+		font-family: 'Abel', sans-serif;
+	}
+
+	#main-menu ul li a:hover
+	{
+		color: white;
+	}
+	
+}
+
+
+
+
+
+/* first content page (bottle) */
+
+#bottleHeader h2
+{
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	font-size: 55px;
+	border-bottom: 2px solid #DE9BBE;
+}
+
+#bottleText p
+{
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+  
+  .light-box{
+	display:none;
+	position:absolute;
+	/*   needs "position:absolute" to go ontop of other content  */
+	float: left;
+	top:0;
+	right:0;
+	left:0;
+	  /* needs top/right/bottom/ or left to be positioned (only while using position absolute)*/
+	
+	background-color: gray;
+	color:white;
+	width: 50%;
+
+  }
+  .light-box img
+  {
+	  display: block;
+	  margin-right: auto;
+	  margin-left: auto;
+  }
+  
+  .show-lightbox{
+	display: block !important;
+	/*the !important at the end of display will override the display that used to be on this element*/
+  }
+
+  #video
+  {
+	  width: 600px;
+	  border: 3px solid #E87CAC;
+	  margin-top: 35px;
+	  margin-bottom: 35px;
+	  
+  }
+  
+  #vidPlayer
+  {
+	  padding-bottom: 35px;
+  }
+
+  #vidPlayer h2
+  {
+	font-family: 'Abel', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	padding: 20px;
+  }
+  
+  #play
+{
+	font-family: 'Abel', sans-serif;
+	display: block;
+	width: 150px;
+	background-color: #E87CAC;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#play:hover
+{
+	background-color: #DE9BBE;
+	color:  #fff;
+}
+
+  
+
+
