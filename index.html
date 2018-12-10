@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Caitlin MacKay</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css"> <!-- links to reset CSS sheet -->
+<link href="css/app.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/foundation.css">
+<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"> 
+</head>
+
+<body>
+           
+           
+
+
+<header>
+               <div id="main-menu"> <!-- open main menu-->
+                
+                
+                
+                
+                <nav>
+                <h2 class="hide">main Navigation</h2>
+                
+                
+                <ul id="mainNav">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#mainContact">Contact</a></li>
+                        <li><a href="#aboutMe">About Me</a></li>
+                        <li><a href="#myWork">My Work</a></li>
+                 </ul>
+                  
+            </nav>
+                </div>
+            
+                   
+<section id="header" class="row">
+
+        <img src="images/logo.svg" class="large-1 large-offset-1 medium-1 medium-offset-1 small-1 small-offset-1 columns" id="logo">
+       
+<h1>My Name is Caitlin MacKay</h1>
+<h2>I'm a Designer</h2>
+<a href="#mainContact" id="resBut" class=" large-centered medium-centered small-centered columns">Get In Touch</a>
+ </section>
+    </header>
+
+<section class="row" id="aboutMe">
+
+<div id="aboutMeText" class="small-12 medium-12 large-12 colums">
+    <h1>Welcome</h1>
+    <h2>Hello!</h2>
+    <p> My name is Caitlin MacKay and I am a front end web designer.
+          My passions are film and 3D animation. 
+           I love working with Photoshop, Aftereffects and Cinema 4D.
+    </p>
+    <a href="#skills" id="resBut" class="large-centered medium-centered small-centered columns">my skills</a>
+</div>
+
+
+</section>
+
+
+
+<section class="row" id="skills">
+
+        <h2>My Skills</h2>
+        <p>I love to create. Anything from designing and prototyping a 
+            website to editing photos and film.  
+            I also work on more traditional artwork like painting.
+            </p>
+<section class="row">
+        <div class="large-2 large-offset-2 medium-2 small-11 columns" id="design">
+        <img src="images/design.svg" class="large-6 medium-6 small-11 columns">
+        <p> Photoshop, Illustrator,
+                Adobe XD, InDesign, Cinema 4D, art.</p>
+        </div>
+
+       <div class="large-2 large-offset-2 medium-2 small-11 columns" id="film">
+        <img src="images/film.svg" class="large-6 medium-6 small-ll columns">
+        <p> Final Cut Pro, After Effects, Cinema 4D.</p>
+       </div>
+
+</section>
+</section>
+
+
+
+<section id="myWork" class="row">
+
+        <h2> My Work </h2>
+
+    
+
+              
+                    
+                
+                <section class="large-2 large-offset-1 medium-4 medium-offset-2 small-11-centered columns">
+                        <img class="boxHelper" id="pureVolume" src="images/purevolume.png">
+                
+                    <div id="button">
+                                   
+                        <a href="pureVolume.html" id="resBut" >More</a>
+                 </section>
+
+
+            <section class="large-2 large-offset-1 medium-4 medium-offset-2 small-11-centered columns">
+                    <img class="boxHelper" src="images/bottle.png">
+                        </div>
+                        <div id="button">
+                                       
+                            <a href="bottle.html" id="resBut" >More</a>
+             </section>
+
+             <section class="large-2 large-offset-1 medium-4 medium-offset-2 small-11-centered columns">
+                    <img class="boxHelper" src="images/theheartmakers.png">
+                </div>
+                <div id="button">
+                               
+                    <a href="theHeartMakers.html" id="resBut" >More</a>
+             </section>
+
+
+            <section class="large-2 large-offset-1 medium-4 medium-offset-2 small-11-centered columns">
+                        <img class="boxHelper" id="pureVolume" src="images/art.png">
+                
+                    <div id="button">
+                                   
+                        <a href="art.html" id="resBut" >More</a>
+                 </section>
+
+            
+
+     </section>
+
+                
+            <section id="mainContact" class="row"> 
+                <h2>Contact Me</h2>
+        <section id="contactArea" class="large-centered columns">
+            <h2 class="hidden">Contact form</h2>
+            <h3> Please leave any comments or questions below!</h3> 
+        <form id="contactForm" action="sendemail.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" size="30" placeholder="Enter your name">
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" required id="email" size="30" placeholder="Enter your Email">
+                
+                <label for="comments">Comments:</label>
+                <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+             
+               
+                <input id="submit" type="submit" value="Submit">
+        </form>
+</section>
+</section>
+
+
+
+    
+<footer id="footerCon"> <!-- footer start-->
+    <h2 class="hide">main footer</h2>
+    <section class="row">
+    	<nav class="large-8 large-offset-4 columns">
+                <a href="#" id="backButton">BACK TO TOP</a>
+    			<ul id="footerNav" class="show-for-medium" class="menu expanded" data-magellan>
+				<li><a href="#header">Home</a></li>
+				<li><a href="#mainContact">Contact</a></li>
+				<li><a href="#aboutMe">About Me</a></li>
+				<li><a href="#myWork">My Work</a></li>
+				</ul>
+	   </nav>
+	   
+	   
+    </section>
+    	
+    	
+    </footer> <!--footer end-->
+
+
+
+
+                  
+                           
+    
+
+
+
+
+<script src="js/vendor/foundation.js"></script>
+<script src="js/main.js"></script> 
+</body>
+</html>

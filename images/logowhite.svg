@@ -1,0 +1,22 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 399 753.1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 19px;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+        font-size: 623.94px;
+        fill: #5f5959;
+        font-family: Teko-Regular, Teko;
+      }
+    </style>
+  </defs>
+  <title>logowhite</title>
+  <rect class="cls-1" x="9.5" y="168.5" width="380" height="380"/>
+  <text class="cls-2" transform="translate(83.5 507.27)">c</text>
+</svg>
