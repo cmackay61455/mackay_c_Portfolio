@@ -1,0 +1,380 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+.boxHelper
+{
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+}
+
+
+.title-bar
+{
+	background-color: #fff;
+	margin-bottom: 10px;
+	padding-right: 0px;
+}
+
+.menu-icon
+{
+	margin-right: 0;
+}
+
+/* boxshadow is formating the spacing between the lines*/
+.menu-icon::after
+{
+	background-color: #8ea76b;
+	box-shadow: 0 7px 0 #8ea76b,0 14px 0 #8ea76b;
+}
+
+.menu-icon:hover::after
+{
+	background-color: #215445;
+	box-shadow: 0 7px 0 #215445,0 14px 0 #215445;
+}
+
+#mainNav
+{
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+}
+
+#mainNav li a
+{
+	display: block;
+	padding: 5px 0 5px 0;
+	color: #8ea76b;
+	background-color: #fff;
+}
+
+/* makes lines in between the links */
+#mainNav li
+{
+	border-bottom: 1px solid #efefef;
+}
+
+/* gives the first child a top border*/
+#mainNav li:first-child
+{
+	border-top: 1px solid #efefef;
+}
+
+#mainNav li:last-child
+{
+	margin-bottom: 10px;
+}
+
+#mainNav li a:hover
+{
+	background-color: #efefef;
+}
+
+.button
+{
+	background-color: #8ea76d;
+}
+
+.button:hover
+{
+	background: #215445;
+}
+
+
+
+#mainNav
+	{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: .875em;
+		margin-top: 105px;
+	}
+	
+	#mainNav li
+	{
+		border-bottom: none;
+		display: inline;
+		margin-left: 20px;
+	}
+	
+	#mainNav li a
+	{
+		display: inline;
+	}
+	
+	#mainNav li a:hover
+	{
+		background-color: transparent;
+		color: #8fa771;
+		border-bottom: 3px solid #8fa771;
+		padding-bottom: 5px;
+	}
+	
+	#mainNav li a:first-child
+	{
+		border-top: none;
+	}
+
+	.title-bar
+{
+	background-color: #fff;
+	margin-bottom: 10px;
+	padding-right: 0px;
+}
+
+.menu-icon
+{
+	margin-right: 0;
+}
+
+/* boxshadow is formating the spacing between the lines*/
+.menu-icon::after
+{
+	background-color: #8ea76b;
+	box-shadow: 0 7px 0 #8ea76b,0 14px 0 #8ea76b;
+}
+
+.menu-icon:hover::after
+{
+	background-color: #215445;
+	box-shadow: 0 7px 0 #215445,0 14px 0 #215445;
+}
+
+#mainNav
+{
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+}
+
+#mainNav li a
+{
+	display: block;
+	padding: 5px 0 5px 0;
+	color: #8ea76b;
+	background-color: #fff;
+}
+
+/* makes lines in between the links */
+#mainNav li
+{
+	border-bottom: 1px solid #efefef;
+}
+
+/* gives the first child a top border*/
+#mainNav li:first-child
+{
+	border-top: 1px solid #efefef;
+}
+
+#mainNav li:last-child
+{
+	margin-bottom: 10px;
+}
+
+#mainNav li a:hover
+{
+	background-color: #efefef;
+}
+
+.button
+{
+	background-color: #8ea76d;
+}
+
+.button:hover
+{
+	background: #215445;
+}
+
+#header
+{
+	background: url(../images/home.png) no-repeat;
+	height: 720px;
+	width: 1415px;
+}
+
+#header h1
+{
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	font-size: 100px;
+}
+
+#header h2
+{
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	font-size: 75px;	
+}
+
+
+#aboutMe
+{
+	border-top: 2px solid #215445;
+	border-bottom: 2px solid #215445;
+}
+
+
+
+#aboutMeText h1
+{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+	font-family: 'Abel', sans-serif;
+}
+
+#aboutMeText h2
+{
+	font-size: 20px;
+	padding: 10px;
+	font-family: 'Abel', sans-serif;
+}
+
+#aboutMeText p
+{
+	font-size: 15px;
+	padding: 10px;
+	font-family: 'Abel', sans-serif;
+}
+
+#button h2
+{
+	padding-bottom: 10px;
+	margin-left: 10px;
+}
+
+#button p
+{
+	padding-bottom: 20px;
+	margin-left: 10px;
+
+}
+
+
+
+
+#skills
+{
+	border-bottom: 2px solid #000;
+}
+
+
+#myWork h2
+{
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+#contactArea
+{
+	width: 469px;
+	margin-bottom: 30px;
+}
+
+#contactText
+{
+	font-size: 21px;
+	width: 340px;
+	margin-bottom: 30px;
+}
+
+input, textarea
+{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 300px;
+	height: 10px;
+	background-color: #efefef;
+	border: 1px solid #999;
+	color: #333;
+}
+
+/*Get rid of this, here just to give different height*/
+#contactText
+{
+	font-size: 21px;
+	width: 340px;
+	margin-bottom: 30px;
+}
+
+imput, textarea /* imput area adjustments */
+{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 300px;
+	height: 10px;
+	background-color: #efefef;
+	border: 1px solid #999;
+	color: #333;
+}
+
+#comments
+{
+	width: 360px;
+	height: 200px;
+}
+
+#sudmit
+{
+	width: 75px;
+	height: 30px;
+	background-color: #2073a8;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	margin-top: 30px;
+	border: 1px solid #003471;
+}
+
+
+/* first content page (bottle) */
+
+
+  
+  .light-box{
+	display:none;
+	position:absolute;
+	/*   needs "position:absolute" to go ontop of other content  */
+	float: left;
+	top:0;
+	right:0;
+	left:0;
+	  /* needs top/right/bottom/ or left to be positioned (only while using position absolute)*/
+	
+	background-color: gray;
+	color:white;
+	width: 50%;
+
+  }
+  .light-box img
+  {
+	  display: block;
+	  margin-right: auto;
+	  margin-left: auto;
+  }
+  
+  .show-lightbox{
+	display: block !important;
+	/*the !important at the end of display will override the display that used to be on this element*/
+  }
+  
+
+

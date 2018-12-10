@@ -11,7 +11,7 @@ function send_email() {
         }
 
         header('Location: http://localhost:8888/portfolio?success=yes!');
-        mail($to, $subject, $message, $headers);
+        //mail($to, $subject, $message, $headers);
         //uncomment above when website is up
     }
 
